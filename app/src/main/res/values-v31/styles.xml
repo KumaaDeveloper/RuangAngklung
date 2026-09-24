@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.RuangAngklung.Splash" parent="Theme.RuangAngklung">
+        <item name="android:windowSplashScreenBackground">#FFF8E9</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_angklung</item>
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+</resources>

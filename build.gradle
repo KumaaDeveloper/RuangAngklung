@@ -1,0 +1,11 @@
+plugins {
+    id 'com.android.application' version '8.5.2' apply false
+}
+
+// Some Android Studio installations request this IDE model task even for a
+// Java-only project using Groovy build scripts. It has no APK build actions.
+allprojects {
+    if (!tasks.names.contains('prepareKotlinBuildScriptModel')) {
+        tasks.register('prepareKotlinBuildScriptModel')
+    }
+}
